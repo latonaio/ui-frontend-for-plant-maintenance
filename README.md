@@ -2,19 +2,11 @@
 ui-frontend-for-maintenance は、エッジコンピューティング環境において、ロボットコントローラやPLCからデータを取得し、ロボット自身では監視しきれない稼働情報、異常情報や、設備保全変更履歴などをUIフロントエンドに表示する [plant-maintenance-system](https://github.com/latonaio/plant-maintenance-system) のUIフロントエンドリソースです。  
 
 ## 動作環境  
-### 1.前提条件  
 動作には以下の環境であることを前提とします。  
 ・OS: Linux OS  
 ・CPU: ARM/AMD/Intel  
 ・Kubernetes  
 ・AION のリソース  
-
-### 2.事前準備  
-実行環境に以下のソフトウェアがインストールされている事を前提とします。  
-・ kubernetesのインストール  
-・ envoyのインストール  
-・ project-yamlsのインストール  
-・ aion-core-manifestsのインストール  
 
 ## 機器構成
 ・ ワークステーション1台(このUIリソースを配置する)  
