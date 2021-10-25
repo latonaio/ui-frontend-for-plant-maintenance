@@ -1,4 +1,4 @@
-# ui-frontend-for-maintenance  
+# ui-frontend-for-plant-maintenance  
 ui-frontend-for-maintenance は、エッジコンピューティング環境において、ロボットコントローラやPLCからデータを取得し、ロボット自身では監視しきれない稼働情報、異常情報や、設備保全変更履歴などをUIフロントエンドに表示する [plant-maintenance-system](https://github.com/latonaio/plant-maintenance-system) のUIフロントエンドリソースです。  
 
 ## 動作環境  
@@ -30,4 +30,4 @@ ui-frontend-for-maintenance は、エッジコンピューティング環境に�
 `$ kubectl delete -f k8s/`
 
 ## 参考
-・[ui-backend-for-maintenance](https://github.com/latonaio/ui-backend-for-maintenance)
+・[ui-backend-for-plant-maintenance](https://github.com/latonaio/ui-backend-for-plant-maintenance)
